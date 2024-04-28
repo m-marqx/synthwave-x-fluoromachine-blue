@@ -142,8 +142,8 @@
   background-color: transparent !important;
   background-image: linear-gradient(
     to bottom,
-    var(--color-22) 75%,
-    var(--color-23)
+    var(--color-4) 75%,
+    var(--color-7)
   );
   background-size: auto 100vh;
   background-position: top;
