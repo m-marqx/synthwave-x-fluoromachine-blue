@@ -144,7 +144,7 @@
     to bottom,
     var(--color-4) 75%,
     var(--color-7)
-  );
+    );
   background-size: auto 100vh;
   background-position: top;
   background-repeat: no-repeat;
@@ -220,14 +220,14 @@ canvas {
   z-index: 1;
 }
 
-/* Sweet sunset dots */
+/* VS Code logo */
 .monaco-workbench
   .activitybar
   > .content
   .monaco-action-bar
   .badge
   .badge-content {
-  background: linear-gradient(to bottom, var(--color-5) 25%, var(--color-5));
+  background: linear-gradient(to bottom, var(--color-5) 25%, var(--color-7));
 }
 
 .monaco-workbench
@@ -454,16 +454,4 @@ canvas {
   background-size: 64px 100%;
   background-repeat: no-repeat;
   background-position: 32.35vw center;
-}
-
-/* add vertical line in 79th character position */
-.view-lines.monaco-mouse-cursor-text {
-  background-image: linear-gradient(
-    to bottom,
-    var(--color-4) 50%,
-    var(--color-5)
-  );
-  background-size: 2px 100%;
-  background-repeat: no-repeat;
-  background-position: 35.5vw center;
 }
