@@ -1,7 +1,7 @@
 # synthwave-x-fluoromachine
 This is a fork of @webrender's synthwave-x-fluoromachine, which is also fork of @robbowen's Synthwave '84 theme, merged with @fullerenedream's Fluoromachine theme for VSCode, with @thecodemonkey synthwave-x-fluoromachine-epic-animations extras.
 
-# Installation (github)
+# Installation
 1. Install this theme
 2. install Custom CSS and JS Loader
 3. link the CSS file from this extension in your vscode settings.json:

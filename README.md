@@ -20,8 +20,8 @@ Windows might resemble:
 
 ```{
   "vscode_custom_css.imports": [
-    "file:///C:/Users/{user name}/.vscode/extensions/Synthwave-x-fluoromachine-blue/synthwave-x-fluoromachine-np-dark-blue.css",
-    "file:///C:/Users/{user name}/.vscode/extensions/Synthwave-x-fluoromachine-blue/synthwave-x-fluoromachine-extras-dark-blue.css"
+    "file:///C:/Users/{user name}/.vscode/extensions/Synthwave-x-fluoromachine-blue/synthwave-x-fluoromachine-blue.css",
+    "file:///C:/Users/{user name}/.vscode/extensions/Synthwave-x-fluoromachine-blue/synthwave-x-fluoromachine-extras.css"
     ]
 }
 ```
