@@ -20,8 +20,8 @@ Windows might resemble:
 
 {
   "vscode_custom_css.imports": [
-    "file:///C:/Users/mateu/.vscode/extensions/Synthwave-x-fluoromachine-blue/synthwave-x-fluoromachine-np-dark-blue.css",
-    "file:///C:/Users/mateu/.vscode/extensions/Synthwave-x-fluoromachine-blue/synthwave-x-fluoromachine-extras-dark-blue.css"
+    "file:///C:/Users/{user name}/.vscode/extensions/Synthwave-x-fluoromachine-blue/synthwave-x-fluoromachine-np-dark-blue.css",
+    "file:///C:/Users/{user name}/.vscode/extensions/Synthwave-x-fluoromachine-blue/synthwave-x-fluoromachine-extras-dark-blue.css"
     ]
 }
 • From the command panel, select Reload Custom CSS and JS. You'll need to run this command every time vscode updates.
