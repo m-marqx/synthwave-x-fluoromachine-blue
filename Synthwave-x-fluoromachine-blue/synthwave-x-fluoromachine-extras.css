@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Tourney:ital,wght@1,100&display=swap");
+
+/* hover flip specials */
+
+.mtk8,
+.mtk9,
+.mtk3,
+.mtk6,
+.mtk7,
+.mtk10 {
+  display: inline-block;
+
+  transition: 0.4s transform;
+  transform: rotateX(0);
+}
+
+.mtk8:hover,
+.mtk9:hover,
+.mtk3:hover,
+.mtk6:hover,
+.mtk7:hover,
+.mtk10:hover {
+  text-shadow: 2 2 45px;
+  transform: scale(1.2);
+}
+
+/* end of hover flip specials */
+
+/* tooltips */
+
+.monaco-editor .monaco-hover {
+  background-color: #10132ef2;
+  display: block !important;
+  /* padding: 20px; */
+  transition: opacity 1s !important;
+  opacity: 1;
+  animation: tooltippulse 4s infinite linear;
+}
+
+.monaco-editor .monaco-hover.hidden {
+  opacity: 0;
+}
+
+@keyframes tooltippulse {
+  0% {
+    box-shadow: 0 0 0 0 #ff463000;
+  }
+  50% {
+    box-shadow: 0 0 42px 0 #3f38ff80;
+  }
+  100% {
+    box-shadow: 0 0 0 0 #ffd01900;
+  }
+}
+
+.monaco-editor .monaco-hover::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-size: 200% 200%;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    #0427cc,
+    #020f4d,
+    #0427cc,
+    #020f4d,
+    #0427cc
+  );
+
+  animation: neonline 2s linear infinite;
+}
+
+@keyframes neonline {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* end of tooltips */
+
+/* tabs */
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active::before {
+  animation: neonline2 2s linear infinite !important;
+  background-size: 200% 200% !important;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    #0531ff,
+    #020f4d,
+    #0531ff,
+    #020f4d,
+    #0531ff
+  ) !important;
+}
+
+@keyframes neonline2 {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* end of tabs*/
+
+.monaco-editor .selected-text {
+  background-color: #0531ff40 !important;
+  color: #fff !important;
+}
+
+.monaco-editor .cursor {
+  box-shadow: 0 0 15px 2px #ff8c19;
+  animation: cursor 0.5s infinite linear;
+}
+
+/* background animation */
+
+/* .editor-group-container:after {
+    animation: flight 15s infinite linear;
+} */
+
+.view-line .inline-folded:after {
+  color: #fad69d;
+  border-radius: 5px;
+  animation: colapse 0.5s linear;
+}
+
+.monaco-editor .line-numbers.active-line-number {
+  color: blue;
+  text-shadow: 0 0 1px #fad69d !important;
+}
+
+canvas.minimap-decorations-layer {
+  background-color: transparent !important;
+  background-image: linear-gradient(to bottom, #020517 25%, #02050f);
+  background-size: auto 100vh;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.monaco-editor .minimap-shadow-visible {
+  box-shadow: none !important;
+}
+
+@keyframes colapse {
+  0% {
+    background-color: #fad69d;
+    box-shadow: 0 0 5px 0 #fad69d;
+  }
+  70% {
+    background-color: #fad69d;
+    box-shadow: 0 0 35px 10px #fad69d;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes cursor {
+  0% {
+    box-shadow: 0 0 5px 0 #ff8c19;
+  }
+  100% {
+    box-shadow: 0 0 35px 5px #ff8c19;
+  }
+}
+
+@keyframes flight {
+  0% {
+    transform: perspective(100px) rotateX(60deg) translateY(0px);
+  }
+  100% {
+    transform: perspective(100px) rotateX(60deg) translateY(20px);
+  }
+}
+
+/* .editor-container::after {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    content: 'Comi o cu de quem leu';
+    font-weight: bold;
+    font-size: 5em;
+    font-family: 'Fira Code', cursive;
+
+    color: #0531FF22;
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    overflow-x: hidden;
+    height: 120px;
+
+
+    text-shadow: 0 0 30px #0531FF;
+
+    animation: cnt 10s infinite linear;
+
+
+
+}
+
+@keyframes cnt {
+    0% {
+        bottom: 150px;
+        font-size: 0.1em;
+        color: #0531FF22;
+        text-shadow: 0 0 5px #0531FF11;
+    }
+    100% {
+        bottom: -400px;
+        font-size: 20em;
+        color: #0531FF55;
+        text-shadow: 0 0 30px #0531FF;
+    }
+} */

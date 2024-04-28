@@ -1,0 +1,47 @@
+{
+	"name": "synthwave-x-fluoromachine-blue-ed",
+	"displayName": "Synthwave x Fluoromachine Blue Edition",
+	"description": "Synthwave '84 x Fluoromachine Theme with a blue twist",
+	"version": "0.0.1",
+	"author": "Archie Marqx",
+	"publisher": "m-marqx",
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/m-marqx/synthwave-x-fluoromachine-blue"
+	},
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"keywords": [
+		"retro",
+		"80s",
+		"vaporwave",
+		"synthwave",
+		"fluoromachine",
+		"blue"
+	],
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Synthwave x Fluoromachine Blue Edition",
+				"uiTheme": "vs-dark",
+				"path": "./themes/synthwave-x-fluoromachine-blue.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "8607133c-9ced-49bd-b817-28004ca94c7c",
+		"publisherId": "c156c0a8-ed41-4b16-becf-322f028f4e68",
+		"publisherDisplayName": "m-marqx",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1684002831502,
+		"preRelease": true
+	}
+}
+
