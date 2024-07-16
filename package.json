@@ -2,7 +2,7 @@
 	"name": "synthwave-x-fluoromachine-blue-ed",
 	"displayName": "Synthwave x Fluoromachine Blue Edition",
 	"description": "Synthwave '84 x Fluoromachine Theme with a blue twist",
-	"version": "0.0.2",
+	"version": "1.0.0",
 	"author": "Archie Marqx",
 	"publisher": "m-marqx",
 	"icon": "icon.png",
@@ -34,14 +34,17 @@
 		]
 	},
 	"__metadata": {
-		"id": "8607133c-9ced-49bd-b817-28004ca94c7c",
-		"publisherId": "c156c0a8-ed41-4b16-becf-322f028f4e68",
+		"id": "2bb51c4d-0f78-406e-aee1-839c54341d04",
+		"publisherId": "f039ca5f-c149-4332-8eac-7890a2746646",
 		"publisherDisplayName": "m-marqx",
 		"targetPlatform": "undefined",
-		"updated": false,
+		"updated": true,
 		"isPreReleaseVersion": false,
-		"installedTimestamp": 1684002831502,
-		"preRelease": true
+		"installedTimestamp": 1721170872713,
+		"preRelease": false,
+		"isApplicationScoped": false,
+		"hasPreReleaseVersion": false,
+		"pinned": false,
+		"source": "gallery"
 	}
 }
-

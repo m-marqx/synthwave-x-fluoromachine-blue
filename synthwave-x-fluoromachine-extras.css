@@ -189,18 +189,6 @@ canvas.minimap-decorations-layer {
   }
 }
 
-/* add vertical line in 79th character position */
-.view-lines.monaco-mouse-cursor-text {
-  background-image: linear-gradient(
-    to bottom,
-    var(--color-4) 50%,
-    var(--color-5)
-  );
-  background-size: 2px 100%;
-  background-repeat: no-repeat;
-  background-position: 35.5vw center;
-}
-
 /* .editor-container::after {
     display: flex;
     align-items: center;

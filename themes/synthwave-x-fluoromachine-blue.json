@@ -1,5 +1,5 @@
 {
-  "name": "SynthWave 84",
+  "name": "SynthWave 84 - Blue",
   "type": "dark",
   "colors": {
     "jp-widgets-color": "#ffffffd9",
@@ -132,9 +132,9 @@
     "debugToolBar.background": "#01051F",
     "walkThrough.embeddedEditorBackground": "#161A42",
     "gitDecoration.modifiedResourceForeground": "#FFEE94ee",
-    "gitDecoration.deletedResourceForeground": "#2c52e8",
-    "gitDecoration.addedResourceForeground": "#2c52e8cc",
-    "gitDecoration.untrackedResourceForeground": "#2c52e8",
+    "gitDecoration.deletedResourceForeground": "#FF3830",
+    "gitDecoration.addedResourceForeground": "#5eff84cc",
+    "gitDecoration.untrackedResourceForeground": "#FFD394",
     "gitDecoration.ignoredResourceForeground": "#ffffff40",
     "breadcrumbPicker.background": "#161A42",
     "tree.indentGuidesStroke": "#2CC8E8",

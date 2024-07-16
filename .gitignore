@@ -1,4 +1,3 @@
-*.vsix
 package-lock.*
 .vscode/*
 
