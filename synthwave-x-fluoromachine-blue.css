@@ -433,17 +433,17 @@ canvas {
 }
 
 .widget-label {
-  color: var(--color-35) !important;
+  color: var(--color-35);
 }
 
 .jupyter-widgets {
-  background: var(--color-5) !important;
-  color: var(--color-35) !important;
+  background: var(--color-5);
+  color: var(--color-35);
 }
 
 .jupyter-button {
-  background: var(--color-5) !important;
-  color: var(--color-35) !important;
+  background: var(--color-5);
+  color: var(--color-35);
 }
 /* add vertical line in 72th to 79th character position */
 /* .view-line {
