@@ -445,26 +445,57 @@ canvas {
   background: var(--color-5);
   color: var(--color-35);
 }
-/* add vertical line in 72th to 79th character position */
-/* .view-line {
+
+/* Add vertical line in monitors with landscape orientation */
+/* .view-line,
+.view-lines.monaco-mouse-cursor-text {
+  background-repeat: no-repeat;
+}
+
+.view-lines.monaco-mouse-cursor-text {
   background-image: linear-gradient(
     to left,
     var(--color-5) -500%,
     var(--color-2)
   );
   background-size: 64px 100%;
-  background-repeat: no-repeat;
-  background-position: 32.35vw center;
-} */
+}
 
-/* add vertical line in 79th character position */
-/* .view-lines.monaco-mouse-cursor-text {
+.view-line {
   background-image: linear-gradient(
     to bottom,
-    var(--color-4) 50%,
-    var(--color-5)
+    var(--color-5) 50%,
+    var(--color-4)
   );
   background-size: 2px 100%;
-  background-repeat: no-repeat;
-  background-position: 35.5vw center;
+} */
+
+/* set the background-position-x to match the 72th and 79th character */
+
+/* Add vertical line in monitors with landscape orientation */
+/* If the monitor isn't Full HD (1920x1080) Adjust the background-position-x
+  to match the 79th character using >developer: Toggle Developer Tools*/
+
+/* @media (orientation: landscape) {
+  .view-lines.monaco-mouse-cursor-text {
+    background-position-x: 32.35svw;
+  }
+
+  .view-line {
+    background-position-x: 35.5svw;
+  }
+} */
+
+/* Add vertical line in monitors with portrait orientation */
+/* If the monitor isn't Full HD (1920x1080) Adjust the background-position-x
+  to match the 79th character using >developer: Toggle Developer Tools*/
+
+  /* @media (orientation: portrait) {
+  .view-lines.monaco-mouse-cursor-text {
+    background-position-x: 57.4svw;
+  }
+
+  .view-line {
+    background-position-x: 63.1svw;
+  }
 } */
